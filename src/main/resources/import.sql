@@ -1,6 +1,6 @@
 INSERT INTO beer(id, name)
-VALUES (nextval('hibernate_sequence'), 'Hertog Jan');
+VALUES (nextval('hibernate_sequence'), 'Heineken');
 INSERT INTO beer(id, name)
-VALUES (nextval('hibernate_sequence'), 'Brand');
+VALUES (nextval('hibernate_sequence'), 'Budweiser');
 INSERT INTO beer(id, name)
-VALUES (nextval('hibernate_sequence'), 'Grolsch');
+VALUES (nextval('hibernate_sequence'), 'Corona');
