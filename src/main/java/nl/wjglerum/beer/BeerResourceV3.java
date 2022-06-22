@@ -37,7 +37,7 @@ public class BeerResourceV3 {
 
     @GET
     @Path("/{name}")
-    public Uni<Beer> getByName(@PathParam("name") String name) {
+    public Uni<Beer> getByName(String name) {
         return beerRepository.findByName(name);
     }
 

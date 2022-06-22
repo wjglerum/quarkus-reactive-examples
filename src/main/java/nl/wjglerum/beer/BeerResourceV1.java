@@ -27,7 +27,7 @@ public class BeerResourceV1 {
 
     @GET
     @Path("/{id}")
-    public Uni<Beer> getById(@PathParam("id") Long id) {
+    public Uni<Beer> getById(Long id) {
         return Beer.findById(id);
     }
 

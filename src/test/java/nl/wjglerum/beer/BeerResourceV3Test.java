@@ -53,7 +53,7 @@ public class BeerResourceV3Test {
 
     @Test
     public void testCreateEndpoint() {
-        var data = Map.of("name", "Leffe Blond");
+        var data = Map.of("name", "Karmeliet");
 
         given()
                 .accept(ContentType.JSON)
