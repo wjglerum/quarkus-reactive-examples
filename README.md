@@ -1,4 +1,4 @@
-# reactive-quarkus Project
+# Reactive Quarkus Examples
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
