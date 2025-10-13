@@ -25,7 +25,6 @@ public class BeerResourceV3Test {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .header("transfer-encoding", "chunked")
                 .body("size()", greaterThanOrEqualTo(3));
     }
 

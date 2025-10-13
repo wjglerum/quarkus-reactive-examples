@@ -1,8 +1,21 @@
 package nl.wjglerum.beer;
 
+import jakarta.enterprise.context.ApplicationScoped;
+
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 
-public interface BeerService {
+@ApplicationScoped
+public class BeerService {
 
-    CompletionStage<Beer> getFromDraft();
+    public CompletionStage<String> getFromDraft() {
+        return CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            return "Guinness";
+        });
+    }
 }

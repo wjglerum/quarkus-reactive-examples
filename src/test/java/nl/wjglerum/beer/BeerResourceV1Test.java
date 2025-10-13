@@ -32,11 +32,11 @@ public class BeerResourceV1Test {
         given()
                 .accept(ContentType.JSON)
                 .when()
-                .get("3")
+                .get("1")
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("name", is("Grolsch"));
+                .body("name", is("Hertog Jan"));
     }
 
     @Test
