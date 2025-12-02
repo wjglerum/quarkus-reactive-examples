@@ -75,15 +75,15 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
+            <groupId>io.quarkiverse.wiremock</groupId>
+            <artifactId>quarkus-wiremock-test</artifactId>
+            <version>1.5.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.tomakehurst</groupId>
-            <artifactId>wiremock-jre8</artifactId>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
             <scope>test</scope>
-            <version>2.35.2</version>
         </dependency>
     </dependencies>
     <build>
