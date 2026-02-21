@@ -3,12 +3,12 @@ updates:
   - package-ecosystem: "maven"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       time: "07:00"
       timezone: "Europe/Amsterdam"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       time: "07:00"
       timezone: "Europe/Amsterdam"
